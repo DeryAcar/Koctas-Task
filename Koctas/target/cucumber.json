@@ -1,0 +1,412 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User able to login",
+        "description": "",
+        "id": "products-to-favorites-list-add/remove-process;user-able-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1758244500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18033057600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user on the koctas homepage",
+            "match": {
+              "location": "LoginPageStepDef.the_user_on_the_koctas_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159379700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user able to see open homepage",
+            "match": {
+              "location": "LoginPageStepDef.the_user_able_to_see_open_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 895632200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user click on the icon member",
+            "match": {
+              "location": "LoginPageStepDef.the_user_click_on_the_icon_member()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6520706600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click login title",
+            "match": {
+              "location": "LoginPageStepDef.the_user_click_login_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 453898500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enter valid email as \"qa@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa@mailinator.com",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginPageStepDef.the_user_enter_valid_email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278222800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enter valid password as \"Quality7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Quality7",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginPageStepDef.the_user_enter_valid_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9276331400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user click giris yap button",
+            "match": {
+              "location": "LoginPageStepDef.the_user_click_giris_yap_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308365700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user able to see logged in",
+            "match": {
+              "location": "LoginPageStepDef.the_user_able_to_see_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "User able to add products to favorites",
+        "description": "",
+        "id": "products-to-favorites-list-add/remove-process;user-able-to-add-products-to-favorites",
+        "after": [
+          {
+            "result": {
+              "duration": 54700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19626200,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027LAPTOP-6RU62DR5\u0027, ip: \u0027192.168.1.111\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)\r\n\tat step_definitions.LoginPageStepDef.the_user_on_the_koctas_homepage(LoginPageStepDef.java:23)\r\n\tat ✽.Given the user on the koctas homepage(koctas_home_page.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "the user on the koctas homepage",
+            "match": {
+              "location": "LoginPageStepDef.the_user_on_the_koctas_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "the user types \"Gardiroplar\" in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gardiroplar",
+                  "offset": 16
+                }
+              ],
+              "location": "AddFavListStepDef.the_user_types_in_the_search_bar(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "the user click search button",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "the user able to see open page",
+            "match": {
+              "location": "AddFavListStepDef.the_user_able_to_see_open_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "the user click on second page",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_on_second_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "the user able to see open second page",
+            "match": {
+              "location": "AddFavListStepDef.the_user_able_to_see_open_second_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "the user click button the third product",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_button_the_third_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user click favorilerime ekle",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_favorilerime_ekle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the user click button my favorites in the open popup",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_button_my_favorites_in_the_open_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "the user click save button",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "the user click on the hesabim button",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_on_the_hesabim_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "the user click on the my favorite list link",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_on_the_my_favorite_list_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "the user able to verify newly added products in the list",
+            "match": {
+              "location": "AddFavListStepDef.the_user_able_to_verify_newly_added_products_in_the_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "the user able to see name of the list",
+            "match": {
+              "location": "AddFavListStepDef.the_user_able_to_see_name_of_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "the user click on favorite list",
+            "match": {
+              "location": "RemoveFavListStepDef.the_user_click_on_favorite_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "the user click on product",
+            "match": {
+              "location": "RemoveFavListStepDef.the_user_click_on_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "the user click button as favorilerimden kaldir",
+            "match": {
+              "location": "RemoveFavListStepDef.the_user_click_button_as_favorilerimden_kaldir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "the user click button my favorites in the open popup",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_button_my_favorites_in_the_open_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "the user click save button",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "the user click on the hesabim button",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_on_the_hesabim_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "the user click on the my favorite list link",
+            "match": {
+              "location": "AddFavListStepDef.the_user_click_on_the_my_favorite_list_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "the user able to verify product removed from the list",
+            "match": {
+              "location": "RemoveFavListStepDef.the_user_able_to_verify_product_removed_from_the_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "products to favorites list add/remove process",
+    "description": "",
+    "id": "products-to-favorites-list-add/remove-process",
+    "keyword": "Feature",
+    "uri": "koctas_home_page.feature"
+  }
+]
