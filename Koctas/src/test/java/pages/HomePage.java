@@ -24,7 +24,6 @@ public class HomePage {
 	@FindBy(css = "button[class='aa-SubmitButton']")
 	public WebElement submitButton;
 
-	//	@FindBy(xpath = "//a[text()='2']")
 	@FindBy(xpath = "(//li[contains(@class,\"page-item\")])[3]")
 	public WebElement secondPage;
 
@@ -56,7 +55,6 @@ public class HomePage {
 	public WebElement numberOfProducts;
 
 	@FindBy(css = "svg[class='icon-heart mb-5 fav-icon-color']")
-	//	@FindBy(xpath = "//span[text()='Favorilerimden Kaldýr']")
 	public WebElement removeIconHeart;
 
 	@FindBy(css = "li[data-position='1']")
